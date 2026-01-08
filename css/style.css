@@ -168,3 +168,84 @@ header {
 .trancprant img{
     height: 15px;
 }
+
+.card-cection .card-titel h1{
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 40px;
+    color: #001931;
+
+}
+.card-cection .card-titel p{
+    padding-top: 16px;
+    padding-bottom: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+}
+#card-bar .flex-card{
+    display: flex;
+    gap: 24px;
+    width: 0 auto;
+}
+#card-bar .flex-card .mean-card{
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(141, 141, 141, 0.616);
+    height: 300px;
+    width: 322px;
+}
+.flex-card .mean-card img{
+    background: rgba(249, 85, 85, 1);
+    height: 60px;
+    width: 60px;
+    margin-top: 83px;
+    border-radius: 50%;
+    padding: 14px;
+}
+.flex-card .mean-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: ;
+    padding: 16px 24px;
+}
+.flex-card .mean-card p{
+    font-size: 16px;
+    color: #627382;
+    padding: 0px 24px;
+}
+#design-ber{
+    background: #FFFFFF;
+}
+.design-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+    gap: 60px;
+    align-items: center;
+}
+.design-section .img-bar img{
+    height: 600px;
+}
+.titel-bar h4{
+    color: #469165;
+    font-weight: 500;
+    
+}
+.titel-bar h2{
+    font-size: 48px;
+    font-weight: 700;
+    padding: 16px 0;
+    color: #001931;
+
+}
+.titel-bar p{
+    font-size: 16px;
+    color: #627382;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+.titel-bar h3{
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
