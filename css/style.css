@@ -249,3 +249,69 @@ header {
     font-weight: 500;
     padding-bottom: 16px;
 }
+#clearly-bar{
+
+}
+.c-section{
+    background: #F7F6F2;
+    text-align: center;
+    margin: 0 120px 120px 120px;
+    
+}
+.c-section h2{
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 80px;
+
+}
+.c-section p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #627382;
+    padding: 16px 40px 40px 24px;
+}
+.c-section .div-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+footer{
+    background: #000422;
+    height: 348px;
+    display: flex;
+    align-items: center;
+}
+
+.f-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f-icon{
+    text-align: right;
+}
+
+.s-icon{
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 10px;
+}
+.f-icon{
+    color: rgb(255, 255, 255);
+}
+
+.s-icon i{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    color: #30B868;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
