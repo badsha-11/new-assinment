@@ -66,9 +66,17 @@
     border: none;
     color: #FFFFFF;
     font-weight: 600;
+    display: inline-flex;
     justify-content: center;
-    display: flex;
-    
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    background: #249a55;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(48, 184, 104, 0.4);
 }
 .contener {
     max-width: 1300px;
@@ -102,8 +110,14 @@ header {
     font-size: 16px;
     font-weight: 500;
     color: #000000;
+    transition: color 0.2s ease;
 }
 
+.header-content nav ul li a:hover{
+    color: #30B868;
+    
+    
+}
 /* baner-section */
 #banner{
     background: url(../assets/hero-bg.png);
@@ -213,6 +227,19 @@ header {
     color: #627382;
     padding: 0px 24px;
 }
+#card-bar .flex-card .mean-card{
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(141, 141, 141, 0.4);
+    height: 300px;
+    width: 322px;
+    transition: all 0.3s ease;
+}
+
+#card-bar .flex-card .mean-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
 #design-ber{
     background: #FFFFFF;
 }
@@ -288,6 +315,8 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #627382;
+    padding-bottom: 127px;
 }
 
 .f-icon{
@@ -302,6 +331,9 @@ footer{
 }
 .f-icon{
     color: rgb(255, 255, 255);
+    font-size: 23px;
+    font-weight: 500;
+
 }
 
 .s-icon i{
@@ -313,5 +345,21 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.s-icon i:hover{
+    background: #30B868;
+    color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(48, 184, 104, 0.4);
+}
+
+.footer-bottom{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 30px;
+    font-size: 14px;
 }
 
